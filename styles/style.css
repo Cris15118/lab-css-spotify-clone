@@ -4,5 +4,113 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fff;
+    
+}
+#header{
+    margin: 0px;
+    padding-top:  5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+ .nav-bar{
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+}
+.logo-spoti {
+    height: 55px;
+    width: 200px;
+
+}
+.nav-bar ul {
+    list-style: none;
+    margin: 0 auto;
+     float: right;
+     display: flex;
+     justify-content: end;
+     gap: 30px;
+    
+}
+
+.cabeza {
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 150px;
+}
+.cabeza h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.cabeza p{
+    color: #fff;
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-style: solid;
+}
+.pres-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 5px 0 5px;
+  gap: 10px;
+     
+}
+.dibujo{
+    height: 80px;
+    width: 90px;
+   
+    
+    
+}
+.h4-dibujo{
+    color: #00B172;
+    text-align: center;
+    
+}
+.pres-container, p{
+    text-align: center;
+}
+#Discover{
+    background-color: #00B172;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px 30px;
+  
+} 
+#foto-kanye{
+    height: 400px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+#spoti-blanco{
+   
+    
+    height: 80px;
+    width: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+     
+
+   
+
